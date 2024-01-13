@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epik - Roblox Developer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #23272A;
+            color: #fff;
+            font-size: 50px; /* 2.5 times its original size */
+            background: url('https://i.postimg.cc/6p1XGH84/Dirty-Ahhh.png') left calc(50% + 100px) no-repeat,
+                        url('https://i.postimg.cc/KjNzXnJ7/goofy-ahh.png') right calc(50% + 125px) no-repeat, #23272A;
+            /* Corrected position of the second image */
+            background-size: 338px auto;
+        }
+
+        #banner {
+            background-color: #23272A;
+            border-bottom: 1px solid #fff;
+            padding: 15px; /* Increased padding to make the top banner 1.5 times bigger */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        #banner h1 {
+            margin: 0;
+            font-size: 54px; /* 1.35 times bigger size for the title */
+        }
+
+        #banner button {
+            background-color: #23272A;
+            color: #fff;
+            padding: 8px 12px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 36px; /* Almost as big as the "Epik" text */
+            font-weight: bold; /* Bold text for buttons */
+        }
+
+        #banner .section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            margin: 20px auto; /* Adjusted margin for the contact information section */
+            text-align: center;
+        }
+
+        section h1 {
+            font-size: 150px; /* 2.5 times its original size */
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            font-size: 75px; /* 2.5 times its original size */
+            margin-bottom: 30px;
+        }
+
+        section p {
+            font-size: 49px; /* 65% of the subtitle size */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="banner">
+        <div class="section">
+            <h1>Epik</h1>
+        </div>
+        <div class="section">
+            <button onclick="window.location.href='https://trello.com/c/GWXaBtmP/3-info'">Script</button>
+        </div>
+        <div class="section">
+            <button onclick="window.location.href='https://trello.com/c/kzzIdX3j/1-info'">VFX</button>
+        </div>
+        <div class="section">
+            <button onclick="window.location.href='https://trello.com/c/djEHNRuU/2-info'">Models</button>
+        </div>
+    </div>
+
+    <section>
+        <h1>Epik</h1>
+        <h2>Roblox Developer</h2>
+        <p>Discord: @epicalyepik</p>
+        <p>Feel free to DM for commissions.</p>
+    </section>
+
+</body>
+</html>
